@@ -13,16 +13,31 @@ header {
   background-color: #f0f58661;
   color: #000000;
   font-size: 1rem;
+  display: flex;
+  align-items:center;
+  position: relative;
+
+
 
 }
 
+
+
+
+
 header img {
-  height: 150px;
-  width: 150px;
+  height: 100px;
+  width: 100px;
+
 }
 
 nav ul {
   list-style-type: none;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  margin: 0;
+  position:absolute;right:0;bottom:0;
 
 }
 
@@ -54,15 +69,40 @@ nav ul li:nth-child(2) {
 .wrapper {
   background-color: #ffffff;
   margin: 0em 2em 0em 2em;
+
 }
 
 #primary {
   padding: 0em 0em 1em 2em;
+  display:grid;
+  grid-template-columns: 50% 50%;
+  justify-content: center;
+  align-items:center;
+
+}
+
+#welcome{
+
+
+}
+
+#image{
+
 }
 
 figure img {
-  height: 50%;
-  width: 50%;
+  height: 100%;
+  width: 100%;
+}
+
+#secondary {
+display:grid;
+grid-template-columns: 50% 50%;
+text-align: center;
+
+
+}
+#left{
 }
 
 .view_all_products {
@@ -75,6 +115,16 @@ figure img {
   padding: 12px 20px;
   font-size: 14px;
   cursor: pointer;
+}
+
+
+ul {
+  list-style-type: none;
+
+}
+
+#right{
+
 }
 
 .view_more_staff_picks {
@@ -91,6 +141,6 @@ figure img {
 
 footer {
   background-color: #f0f58661;
-  padding: 0.8em 0 0 2em;
   width: 100%;
+  padding: 0.8em 0 0 2em;
 }
