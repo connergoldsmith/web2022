@@ -16,19 +16,11 @@ header {
   display: flex;
   align-items:center;
   position: relative;
-
-
-
 }
-
-
-
-
 
 header img {
   height: 100px;
   width: 100px;
-
 }
 
 nav ul {
@@ -38,7 +30,6 @@ nav ul {
   justify-content: center;
   margin: 0;
   position:absolute;right:0;bottom:0;
-
 }
 
 nav ul li {
@@ -52,7 +43,6 @@ nav ul li a {
   font-family: georgia, sans-serif;
   text-decoration: none;
   color:inherit;
-
 }
 
 nav ul li a:hover {
@@ -63,13 +53,11 @@ nav ul li:nth-child(2) {
   background-color: #ffffff;
   border: 1px solid #ffffff;
   padding: 1em 4em 1em 4em;
-
 }
 
 .wrapper {
   background-color: #ffffff;
   margin: 0em 2em 0em 2em;
-
 }
 
 #primary {
@@ -78,16 +66,12 @@ nav ul li:nth-child(2) {
   grid-template-columns: 50% 50%;
   justify-content: center;
   align-items:center;
-
 }
 
 #welcome{
-
-
 }
 
 #image{
-
 }
 
 figure img {
@@ -99,9 +83,8 @@ figure img {
 display:grid;
 grid-template-columns: 50% 50%;
 text-align: center;
-
-
 }
+
 #left{
 }
 
@@ -119,12 +102,10 @@ text-align: center;
 
 
 ul {
-  list-style-type: none;
-
+  list-style-type:none;
 }
 
 #right{
-
 }
 
 .view_more_staff_picks {
