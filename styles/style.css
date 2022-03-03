@@ -83,6 +83,7 @@ figure img {
 display:grid;
 grid-template-columns: 50% 50%;
 text-align: center;
+padding-bottom: 10px;
 }
 
 #left{
@@ -121,7 +122,9 @@ ul {
 }
 
 footer {
+display: grid;
   background-color: #f0f58661;
   width: 100%;
   padding: 0.8em 0 0 2em;
+
 }
