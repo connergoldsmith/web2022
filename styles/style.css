@@ -75,11 +75,7 @@ nav ul li:nth-child(1) {
 .image-style {
       border: 10px solid #615148;
       box-shadow: 20px 20px;
-      /*border: 10px solid #000000;*/
-      /*box-shadow: 15px 15px #e75680;*/
-      /*transform: rotateX(150deg);*/
-      /*transform: rotateY(150deg);*/
-      /*transform: rotateZ(90deg);*/
+
     }
 
 #welcome{
