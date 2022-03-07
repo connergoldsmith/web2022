@@ -10,7 +10,7 @@
   <body>
     <header>
       <a href="index.html">
-        <img src="gm_logo.png" alt="Golden Media Logo">
+                <img src="gm_logo.png" alt="Golden Media Logo">
              </a>
       <h1>Golden Media</h1>
 
@@ -42,8 +42,13 @@
 
   <article id="image">
       <figure id="main_image">
-       <img src="record_store_inside.jpg" alt="An inside look of the record store">
-     </figure>
+      <img
+      class="image-style"
+        <srcset="record_store_inside.jpg
+             record_store_inside_small.png"
+        sizes="(max-width: 1016px) 604px, 1016px"
+        src="record_store_inside.jpg"
+        alt="A picture of the store">
    </article>
       </section>
 
