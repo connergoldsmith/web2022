@@ -72,6 +72,20 @@ nav ul li:nth-child(1) {
 
 }
 
+.basic-form label {
+     font-weight: bold;
+     }
+
+   .basic-form input {
+     display: flex;
+     font-size: 100%;
+     width: 250px;
+     /*height: 200px;*/
+     border: 2px solid #615148;
+     background-color: #f0f58661;
+     color: black;
+     }
+
 .image-style {
       border: 10px solid #615148;
       box-shadow: 20px 20px;
