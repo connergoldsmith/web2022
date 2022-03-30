@@ -147,6 +147,39 @@ ul {
   cursor: pointer;
 }
 
+table {
+        border-collapse: collapse;
+      }
+
+      caption {
+        font-size: 1.3rem;
+        padding: 5px;
+        background-color: black;
+        color: white;
+      }
+
+      thead, tfoot {
+        background-color: #f0f58661;
+        color: Black;
+        font-weight: bold;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+      }
+
+      th, td {
+        padding: 5px 10px;
+        text-align: center;
+      }
+
+      .center {
+        text-align: center;
+      }
+
+      .rowhover:hover {
+        background-color: #615148;
+        color: white;
+      }
+
 footer {
   display: flex;
 
