@@ -51,7 +51,9 @@ nav ul li a:hover {
   color: #adb307;
 }
 
-nav ul li:nth-child(1) {
+
+
+.current {
   background-color: #ffffff;
   border: 1px solid #ffffff;
   padding: 1em 4em 1em 4em;
@@ -74,10 +76,12 @@ nav ul li:nth-child(1) {
 
 .basic-form label {
      font-weight: bold;
+     text-align: center;
      }
 
    .basic-form input {
      display: grid;
+     text-align: center;
      grid-auto-columns: 50% 50%;
      font-size: 100%;
      width: 250px;
@@ -150,6 +154,8 @@ ul {
 table {
         border-collapse: collapse;
         border: 1px solid;
+
+
       }
 
       caption {
