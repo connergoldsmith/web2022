@@ -99,6 +99,10 @@ nav ul li a:hover {
 #welcome{
 }
 
+#formarticle{
+  
+}
+
 #image{
 }
 
@@ -114,6 +118,15 @@ text-align: center;
 padding-bottom: 10px;
 grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 
+}
+
+#formsection {
+  padding: 0em 0em 1em 2em;
+  display:grid;
+  grid-template-columns: 50% 50%;
+  justify-content: center;
+  align-items:center;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
 
 #left{
